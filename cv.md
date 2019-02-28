@@ -32,10 +32,13 @@ I gained basic knowledge in HTML-Academy, a link to the [profile](https://htmlac
 November 2018 — to the present day.  
 + Director of Center of Architecture and Construction LLC
 May 2013 — to the present day.  
+Main responsibilities: Organization of the enterprise, management and recruitment, support up-to-date material and technical base, search and work with customers, monitoring the execution of works, maintaining financial activities of the enterprise.  
 + Engineer PTD
 April 2011 - February 2013.  
+Main responsibilities: Estimated work, pricing, quality control of work performed, preparation for
+participation in tenders, engineering support at construction sites.  
+  
 ## Education:  
 BRU, Mogilev, Belarus — incomplete higher  
 Faculty of Engineering Correspondence Education "Automated control systems" 2013-2014  
 English — A1+  
-
