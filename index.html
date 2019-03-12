@@ -16,85 +16,95 @@
     <div class="wrapper">
       <nav class="main-nav">
         <ul class="main-nav__list menu-list">
-          <li class="menu-list__item">Main</li>
-          <li class="menu-list__item">Summary</li>
-          <li class="menu-list__item">Skills</li>
-          <li class="menu-list__item">Experience</li>
+          <li class="menu-list__item"><a href="#main">Main</a></li>
+          <li class="menu-list__item"><a href="#summary">Summary</a></li>
+          <li class="menu-list__item"><a href="#skills">Skills</a></li>
+          <li class="menu-list__item"><a href="#experience">Experience</a></li>
+          <li class="menu-list__item"><a href="#education">Education</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main class="content">
-    <div class="wrapper">
-      <section class="main">
-        <img class="main__photo" src="assets/images/photo.jpg" alt="Yauhen Varapaeu">
+    <div class="wrapper content__wrapper">
+      <aside class="main">
+        <a id="main"></a>
+        <img class="main__photo" src="assets/images/photo.jpg" width="320" height="325" alt="Yauhen Varapaeu">
         <h1 class="main__title">Yauhen Varapaeu</h1>
         <p class="main__text">Mogilev, Belarus</p>
         <a class="main__email-link link" href="mailto:amidawolf@gmail.com">amidawolf@gmail.com</a>
         <a class="main__site-link link" href="https://amidawolf.github.io">amidawolf.github.io</a>
-      </section>
+      </aside>
 
-      <section class="summary">
-        <h2 class="summary__title title">Summary</h2>
-        <p class="summary__text">I gained basic knowledge in HTML-Academy, a link to the <a href="https://htmlacademy.ru/profile/id643017">profile</a>. I moved to the Front-end development from another professional field, so i got all my knowledge
-          from scratch myself. I am keenly interested in new technologies, the correct semantic layout, "css features". I constantly looking for new knowledge, strive for development and really enjoy it. There are a couple of educational projects in
-          my portfolio, one commercial site and my own portfolio site.</p>
-      </section>
+      <div class="section-wrapper">
+        <section class="summary section">
+          <a id="summary"></a>
+          <h2 class="summary__title title">Summary</h2>
+          <p class="summary__text">I gained basic knowledge in HTML-Academy, a link to the <a class="link" href="https://htmlacademy.ru/profile/id643017">profile</a>. I moved to the Front-end development from another professional field, so i got all my knowledge
+            from scratch myself. I am keenly interested in new technologies, the correct semantic layout, "css features". I constantly looking for new knowledge, strive for development and really enjoy it. There are a couple of educational projects in
+            my portfolio, one commercial site and my own portfolio site.</p>
+        </section>
 
-      <section class="skills">
-        <h2 class="skills__title title">Skills</h2>
+        <section class="skills section">
+          <a id="skills"></a>
+          <h2 class="skills__title title">Skills</h2>
 
-        <h3 class="skills__subtitle">Hard skills</h3>
-        <ul class="skills__list list">
-          <li class="list__item">HTML5/CSS3</li>
-          <li class="list__item">JavaScript (basic)</li>
-          <li class="list__item">jQuery (basic)</li>
-          <li class="list__item">Responsive design/mobile first</li>
-          <li class="list__item">Progressive enhancement/Graceful degradation</li>
-          <li class="list__item">BEM</li>
-          <li class="list__item">Git (basic)</li>
-          <li class="list__item">LESS (basic)</li>
-          <li class="list__item">W3С validation</li>
-          <li class="list__item">Web Accessibility/ARIA</li>
-        </ul>
+          <h3 class="skills__subtitle">Hard skills:</h3>
+          <ul class="skills__list list">
+            <li class="list__item">HTML5/CSS3</li>
+            <li class="list__item">JavaScript (basic)</li>
+            <li class="list__item">jQuery (basic)</li>
+            <li class="list__item">Responsive design/mobile first</li>
+            <li class="list__item">Progressive enhancement/Graceful degradation</li>
+            <li class="list__item">BEM</li>
+            <li class="list__item">Git (basic)</li>
+            <li class="list__item">LESS (basic)</li>
+            <li class="list__item">W3С validation</li>
+            <li class="list__item">Web Accessibility/ARIA</li>
+          </ul>
 
-        <h3 class="skills__subtitle">Soft skills</h3>
-        <ul class="skills__list list">
-          <li class="list__item">Discipline, time management</li>
-          <li class="list__item">Competent distribution of effort/goal setting</li>
-          <li class="list__item">The pursuit of self-learning</li>
-          <li class="list__item">Resolution of conflict, stressful situations</li>
-        </ul>
-      </section>
+          <h3 class="skills__subtitle">Soft skills:</h3>
+          <ul class="skills__list list">
+            <li class="list__item">Discipline, time management</li>
+            <li class="list__item">Competent distribution of effort/goal setting</li>
+            <li class="list__item">The pursuit of self-learning</li>
+            <li class="list__item">Resolution of conflict, stressful situations</li>
+          </ul>
+        </section>
 
-      <section class="experience">
-        <h2 class="experience__title title">Work experience</h2>
-        <ul class="experience-list list">
-          <li class="list__item work-item">HTML/CSS-developer — freelance.
-            <p class="work-item__period">November 2018 — to the present day.</p>
-          </li>
-          <li class="list__item work-item">Director of Center of Architecture and Construction LLC
-            <p class="work-item__period">May 2013 — to the present day.</p>
-            <p class="work-item__description">Main responsibilities: Organization of the enterprise, management and recruitment, support up-to-date material and technical base, search and work with customers, monitoring the execution of works,
-              maintaining financial activities of the enterprise.</p>
-          </li>
-          <li class="list__item work-item">Engineer PTD
-            <p class="work-item__period">April 2011 - February 2013.</p>
-            <p class="work__item_description">Main responsibilities: Estimated work, pricing, quality control of work performed, preparation for
-            participation in tenders, engineering support at construction sites.  </p>
-          </li>
-        </ul>
+        <section class="experience section">
+          <a id="experience"></a>
+          <h2 class="experience__title title">Work experience</h2>
+          <ul class="experience-list list">
+            <li class="list__item work-item">HTML/CSS-developer — freelance.
+              <p class="work-item__period">November 2018 — to the present day.</p>
+            </li>
+            <li class="list__item work-item">Director of Center of Architecture and Construction LLC
+              <p class="work-item__period">May 2013 — to the present day.</p>
+              <p class="work-item__description">Main responsibilities: Organization of the enterprise, management and recruitment, support up-to-date material and technical base, search and work with customers, monitoring the execution of works,
+                maintaining financial activities of the enterprise.</p>
+            </li>
+            <li class="list__item work-item">Engineer PTD
+              <p class="work-item__period">April 2011 - February 2013.</p>
+              <p class="work-item__description">Main responsibilities: Estimated work, pricing, quality control of work performed, preparation for
+              participation in tenders, engineering support at construction sites.  </p>
+            </li>
+          </ul>
+        </section>
 
-        <h2 class="experience__title title">Education</h2>
-        <p class="experience__description">BRU, Mogilev, Belarus — incomplete higher <br>
-        Faculty of Engineering Correspondence Education "Automated control systems" 2013-2014  <br>
-        English — A1+</p>
+        <section class="education section">
+          <a id="education"></a>
+          <h2 class="education__title title">Education</h2>
+          <p class="education__description">BRU, Mogilev, Belarus — incomplete higher <br>
+          Faculty of Engineering Correspondence Education "Automated control systems" 2013-2014  <br>
+          English — A1+</p>
 
-        <h2 class="experience__title title">Code examples</h2>
-        <a class="experience__link link" href="https://amidawolf.github.io">amidawolf.github.io</a>
-        <a class="experience__link link" href="https://github.com/AmidaWolf">My github account</a>
-      </section>
+          <h2 class="education__title title">Code examples</h2>
+          <a class="education__link link" href="https://amidawolf.github.io">amidawolf.github.io</a>
+          <a class="education__link link" href="https://github.com/AmidaWolf">github.com/AmidaWolf</a>
+        </section>
+      </div>
     </div>
   </main>
 
