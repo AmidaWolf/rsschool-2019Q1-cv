@@ -53,7 +53,7 @@ body {
   height: 100%;
   width: 100%;
 
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
@@ -174,10 +174,6 @@ body {
 
 .link:hover {
   box-shadow: 0 2px 0  #ffffff;
-}
-
-.link:visited {
-  color: #858585;
 }
 
 .section-wrapper {
